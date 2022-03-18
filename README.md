@@ -1,4 +1,7 @@
 ## Getting started
 
-`yarn install`
-`yarn start`
+```
+git clone https://github.com/timurkaev/rgba-generator
+yarn install 
+yarn start
+```
