@@ -6,5 +6,5 @@ yarn install
 yarn start
 ```
 
-### web version
-`https://rgbagenerator.vercel.app/`
+### Web version 
+[https://rgbagenerator.vercel.app](https://rgbagenerator.vercel.app/)
