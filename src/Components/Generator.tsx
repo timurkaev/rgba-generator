@@ -5,9 +5,9 @@ import { AiOutlineCheck } from 'react-icons/ai';
 import { FaCopy } from 'react-icons/fa';
 
 const Generator: React.FC = () => {
-  const [red, setRed] = React.useState<string>('255');
-  const [green, setGreen] = React.useState<string>('255');
-  const [blue, setBlue] = React.useState<string>('255');
+  const [red, setRed] = React.useState<string>('0');
+  const [green, setGreen] = React.useState<string>('0');
+  const [blue, setBlue] = React.useState<string>('0');
   const [alpha, setAlpha] = React.useState<string>('1');
 
   const [copied, setCopied] = React.useState<boolean>(false);
