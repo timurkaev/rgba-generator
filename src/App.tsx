@@ -1,13 +1,10 @@
-import React from 'react';
-import style from './Components/style.module.css';
-import Generator from './Components/Generator';
+import React from "react"
+import { Generator } from "./components/Generator/Generator"
 
-const App: React.FC = () => {
-  return (
-    <div className={style.container}>
-      <Generator />
-    </div>
-  );
-};
-
-export default App;
+export const App: React.FC = (): JSX.Element => {
+	return (
+		<div className="container">
+			<Generator />
+		</div>
+	)
+}
