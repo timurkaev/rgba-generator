@@ -51,7 +51,7 @@ export const Generator: React.FC = (): JSX.Element => {
 				Green
 			</Range>
 			<Range name="blue" min={0} max={255} value={state.blue} onChange={handleChange}>
-				Green
+				Blue
 			</Range>
 			<Range
 				name="alpha"
@@ -60,7 +60,7 @@ export const Generator: React.FC = (): JSX.Element => {
 				max={1.0}
 				value={state.alpha}
 				onChange={handleChange}>
-				Green
+				Alpha
 			</Range>
 			<div className={styles.outputBox}>
 				<div className={styles.output}>
